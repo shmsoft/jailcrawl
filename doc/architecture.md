@@ -20,6 +20,7 @@
   - For MVP, try to do a parser from a provided script, like
     
     go my-script-name 
+    
     python myscript-name
     
 #### 4. Data science
