@@ -34,12 +34,14 @@ Functionality
 * The results will be compressed and stored in a cloud storage.
 * Soon we will have monitoring of the process, with alarms.
 
-CrawlsManager will provide above mentioned infra, with below design.
+CrawlManager will provide above mentioned infra, with below design.
 
 * Logger for logging self-activities
 * Read script definition and location from DB.
 * Trigger Scripts in batches, as sequence will not complete and all in parallel will hamper performance.
 * With every action, update DB for every script so that there is no need to look into log file.
+
+![](../pics/crawl-diagram.png)
 
 Above mentioned CrawlsManager will be triggered by cron or some other scheduler.
 
