@@ -7,9 +7,8 @@
   2. Wait between pages in millisecond (can be 0)  
 * Do not swallow any errors
   
-* In the UI, we will provide a 'submit script' button
-There, we will enforce the rules. 
-We will ask for a spreadsheet with all expected environmental settings on OS and example to execute your crawler (may be empty).
+* In the UI, we will provide a 'submit script' button.
+* We will also ask for a spreadsheet with all expected environmental settings on OS and example to execute your crawlers (may be empty).
 
 Example:
 
