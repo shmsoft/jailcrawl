@@ -1,0 +1,1 @@
+java -classpath jooq-3.11.4.jar:jooq-meta-3.11.4.jar:jooq-codegen-3.11.4.jar:mysql-connector-java-5.1.31.jar:. org.jooq.codegen.GenerationTool crawl.xml
